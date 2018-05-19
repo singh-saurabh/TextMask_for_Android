@@ -20,4 +20,42 @@
         app:piv_invertScrollDirection="false"
         app:piv_show_scrollbar="true" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="124dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <it.gilvegliach.android.transparenttexttextview.TransparentTextTextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SAURABH SINGH"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="geek + smart + curious = ME"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:background="@android:color/white"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
 </android.support.constraint.ConstraintLayout>
